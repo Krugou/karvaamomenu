@@ -1,64 +1,57 @@
 [
   {
-    "day": "Maanantai",
-    "items": [
-      "Vegan: Punajuuripyörykät, vegaaninen piparjuurikastike ja yrttiperunaa M, G, Veg",
-      "Sitruunaista broileria Limonello ja pilahviriisiä L, G",
-      "Lämpimiä kasviksia",
-      "Greeny runsas salaattipöytä Tonnikalaa ja salaattijuustoa",
-      "Soup: Parsakeittoa L, G ja bannock",
-      "Dessert: Maitosuklaamousse G ja talon cookie",
-      "Grill: Karitsaburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Tasty kasvisburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Grillattua lohta, kevätsipulikreemiä ja peruna-parsapaistosta L, G 15,00 €"
-    ]
+    "day": "Maanantai  2n pääsiäispäivä, ravintola suljettu",
+    "items": []
   },
   {
     "day": "Tiistai",
     "items": [
-      "Vegan: Bataattia ja härkistä satay-kastikkeessa, riisiä M, G, Pä, Vs, Veg",
-      "KirjolohiWallenberginpihvi, kevätsipulijogurttia, herneitä ja perunamuusia L, G",
-      "Paahdettuja kasviksia",
-      "Greeny runsas salaattipöytä: Marinoitua broileria ja vuohenjuustoa",
-      "Soup: Tomaatti-basilikakeittoa M, G",
-      "Dessert Omenakiisseli, kaneli-kermavaahtoa L, G, talon cookie",
-      "Grill: Karitsaburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Tasty kasvisburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Grillattua lohta, kevätsipulikreemiä ja peruna-parsapaistosta L, G 15,00 €"
+      "Vegetarian: Kikherne-porkkanapihvejä ja hernehummusta M, G, paahdettua perunaa",
+      "Jogurttimarinoitua broilerin rintafileetä ja valkosipulitomaattikastiketta L, G , basmatiriisiä",
+      "Lämpimiä kasviksia",
+      "Greeny runsas salaattipöytä Tonnikala ja salaattijuusto",
+      "Soup: Pinaattikeittoa ja kananmunaa L, G ja bannock",
+      "Dessert: Mangorahka L, G ja talon cookie",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Vegan: Teri yaki tofua, kasvis-riisipaistosta ja vegaanista yrttikreemiä M, G, So, Veg, Vs",
-      "Valkosipulitäytetyt karitsapihvit, tummaa timjamikastiketta ja valkosipuliperunaa L, Vs",
-      "Paahdettuja kasviksia",
-      "Greeny runsas salaattipöytä Seesampossua ja mozzarellaa",
-      "Soup: Purjo-perunasosekeittoa L, G ja bannock",
-      "Dessert: Mämmiä, rahkapiirakkaa ja suklaamunia L",
-      "Grill: Naudanlihaburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Tasty kasvisburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Grillattua lohta, kevätsipulikreemiä ja peruna-parsapaistosta L, G 15,00 €"
+      "Vegetarian: Sticky tofua, wokattuja kasviksia ja jasminriisiä M, G, Vs, So, Veg",
+      "Porsaanleikettä, sitruunaisia vihreitä papuja, kaprismajoneesia ja paahdettuja perunoita L",
+      "Kirjolohikeitto L, G, saaristolaisleipää M",
+      "Greeny runsas salaattipöytä Katkarapuja ja chorizo-pyörykät",
+      "Soup: Juuressosekeitto L, G ja bannock",
+      "Dessert: Raparperipaistos L ja vaniljavaahtoa L, G talon cookie L",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
     ]
   },
   {
     "day": "Torstai",
     "items": [
-      "Vegetarian: Gyrosbuffet; Halloumia, pikkelöityjä kasviksia, tzatzikia ja Pitaleipää L, Vs",
-      "Gyrosbuffet; Kanaa, pikkelöityjä kasviksia, tzatzikia ja Pitaleipää L, Vs",
-      "Paahdettuja kasviksia",
-      "Greeny runsas salaattipöytä Lohta ja salaattijuustoa",
-      "Soup: Kasvissosekeittoa L, G ja bannock",
-      "Dessert: Rahkapannukakkuja, marjahilloa ja kermavaahtoa",
-      "Grill: Karitsaburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Tasty kasvisburgeri, minttubèarnaisea ja lankkuperunoita L 14,00 €",
-      "Grill: Grillattua lohta, kevätsipulikreemiä ja peruna-parsapaistosta L, G 15,00 €"
+      "Vegetarian: Perunagnoccheja, kirsikkatomaatteja ja mozzarellaa L",
+      "Cajunbroileria, limejogurttia ja riisiä L, G, Vs",
+      "Lämpimiä kasviksia",
+      "Greeny runsas salaattipöytä Savulohi ja mozzarella",
+      "Soup: Bataattisosekeittoa L, G ja bannock",
+      "Dessert: Amerikkalaisia pannukakkuja L, marjahilloa, vaahterasiirappia ja kermavaahtoa, talon cookie L",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
     ]
   },
   {
     "day": "Perjantai",
     "items": [
-      "Pitkäperjantai, ravintola suljettu"
+      "Taco buffa; revittyä bbq possua, salsaa, ranskankermaa ja cuacamolea (L, G)",
+      "Taco buffa; revittyä nyhtökauraa, salsaa, ranskankermaa ja cuacamolea (L, G)",
+      "Greeny runsas salaattipöytä Naudanpaistia ja marinoitua tofua",
+      "Soup: Ramenkeittoa L, G ja bannock",
+      "Dessert: Mutakakkua L ja vaniljavaahtoa L, G ja talon cookie",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Crispy no-chicken, bbq dressing ja lankkuperunoita L"
     ]
   }
 ]
