@@ -1,4 +1,4 @@
-# This workflow runs Monday to Friday at 10:00 UTC, generates menu.json using menu.js, and commits the result to GitHub Pages
+# This workflow runs Monday to Friday at 10:00 UTC, generatses menu.json using menu.js, and commits the result to GitHub Pages
 name: Update Menu and Deploy to GitHub Pages
 
 on:
