@@ -3,7 +3,7 @@ name: Update Menu and Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: '0/15 * * * 1-5' # 10:00 UTC, Monday-Friday
+    - cron: '0 7 * * 1-5' # 7:00 UTC, Monday-Friday
   workflow_dispatch:
 
 jobs:
