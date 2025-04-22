@@ -6,47 +6,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Viikon Ruokalista</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .float-animation {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .glass-effect {
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+  </style>
 </head>
 
-<body class="bg-gradient-to-tr from-pink-100 via-blue-100 to-green-100 min-h-screen">
-  <div class="container mx-auto py-8">
+<body class="bg-gradient-to-tr from-pink-100 via-blue-100 to-green-100 min-h-screen relative overflow-x-hidden">
+  <!-- Animated background elements -->
+  <div class="fixed inset-0 -z-10">
+    <div
+      class="absolute w-96 h-96 bg-pink-300/20 rounded-full blur-3xl top-0 left-0 animate-[spin_20s_linear_infinite]">
+    </div>
+    <div
+      class="absolute w-96 h-96 bg-blue-300/20 rounded-full blur-3xl bottom-0 right-0 animate-[spin_25s_linear_infinite]">
+    </div>
+    <div
+      class="absolute w-96 h-96 bg-green-300/20 rounded-full blur-3xl top-1/2 left-1/2 animate-[spin_30s_linear_infinite]">
+    </div>
+  </div>
+
+  <div class="container mx-auto py-8 px-4">
     <h1
-      class="text-4xl font-extrabold mb-10 text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-blue-500 to-green-500 drop-shadow-lg">
+      class="text-5xl font-extrabold mb-10 text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-blue-500 to-green-500 drop-shadow-lg hover:scale-105 transition-transform duration-300 float-animation">
       Viikon Ruokalista</h1>
     <div id="menu-container" class="grid gap-8 md:grid-cols-2 lg:grid-cols-3"></div>
   </div>
   <script>
     const cardColors = [
-      'from-pink-200 to-pink-100',
-      'from-blue-200 to-blue-100',
-      'from-green-200 to-green-100',
-      'from-yellow-200 to-yellow-100',
-      'from-purple-200 to-purple-100',
-      'from-orange-200 to-orange-100',
-      'from-cyan-200 to-cyan-100'
+      'from-pink-400 to-rose-300',
+      'from-blue-400 to-cyan-300',
+      'from-green-400 to-emerald-300',
+      'from-yellow-400 to-amber-300',
+      'from-purple-400 to-violet-300',
+      'from-orange-400 to-amber-300',
+      'from-cyan-400 to-blue-300'
     ];
     async function loadMenu () {
       const res = await fetch( './menu.json' );
       const menu = await res.json();
       const container = document.getElementById( 'menu-container' );
       container.innerHTML = '';
+
+      // Create a map to store items and their colors
+      const itemColorMap = new Map();
+      let colorIndex = 0;
+
+      // First pass to identify duplicate items
+      menu.forEach( dayMenu => {
+        dayMenu.items.forEach( item => {
+          if ( !itemColorMap.has( item ) ) {
+            itemColorMap.set( item, cardColors[ colorIndex % cardColors.length ] );
+            colorIndex++;
+          }
+        } );
+      } );
+
       menu.forEach( ( dayMenu, idx ) => {
         const card = document.createElement( 'div' );
-        card.className = `relative bg-white/80 rounded-2xl shadow-xl p-6 flex flex-col transition-transform duration-200 hover:scale-105 hover:shadow-2xl border-t-8 border-transparent`;
-        // Colorful header bar
+        card.className = `relative bg-white/40 glass-effect rounded-2xl shadow-xl p-6 flex flex-col
+                    transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-white/60
+                    border border-white/50 group`;
+
+        // Colorful header bar with gradient animation
         const header = document.createElement( 'div' );
-        header.className = `absolute -top-2 left-6 right-6 h-3 rounded-t-xl bg-gradient-to-r ${ cardColors[ idx % cardColors.length ] }`;
+        header.className = `absolute -top-2 left-6 right-6 h-3 rounded-t-xl bg-gradient-to-r
+                    ${ cardColors[ idx % cardColors.length ] } group-hover:h-4 transition-all duration-300`;
         card.appendChild( header );
+
         const title = document.createElement( 'h2' );
-        title.className = 'text-2xl font-bold mb-4 mt-4 text-gray-800 tracking-wide';
+        title.className = 'text-2xl font-bold mb-4 mt-4 text-gray-800 tracking-wide group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:to-violet-500 transition-all duration-300';
         title.textContent = dayMenu.day;
         card.appendChild( title );
+
         const ul = document.createElement( 'ul' );
-        ul.className = 'list-disc list-inside space-y-2 text-gray-700';
+        ul.className = 'list-none space-y-3 text-gray-700';
         dayMenu.items.forEach( item => {
           const li = document.createElement( 'li' );
-          li.textContent = item;
-          li.className = 'hover:text-pink-600 transition-colors duration-150';
+          const itemColor = itemColorMap.get( item );
+          li.className = `p-2 my-1 rounded-lg border border-transparent hover:border-current
+                         transition-all duration-200 bg-gradient-to-r ${ itemColor } bg-opacity-20
+                         hover:translate-x-2 hover:shadow-md text-white`;
+
+          const dot = document.createElement( 'span' );
+          dot.className = `inline-block w-2 h-2 rounded-full mr-2 bg-gradient-to-r ${ itemColor }`;
+          li.appendChild( dot );
+
+          const text = document.createElement( 'span' );
+          text.textContent = item;
+          li.appendChild( text );
+
           ul.appendChild( li );
         } );
         card.appendChild( ul );
