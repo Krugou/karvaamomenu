@@ -17,11 +17,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          
+      - name: git pull
+        run: git pull          
 
       - name: Install dependencies
         run: |
           if [ -f package.json ]; then npm ci; fi
 
+        
       - name: Generate menu.json
         run: node menu.js
 
