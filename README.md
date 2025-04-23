@@ -1,4 +1,4 @@
-# karvaamomenu
+# karvaamokuja menu ravintola maple street [https://cgi.ravintolapalvelut.iss.fi/ravintola]
 
 A web project for displaying a weekly restaurant menu with a modern UI. Includes both a standard and a 3D version.
 
