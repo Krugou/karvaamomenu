@@ -68,12 +68,23 @@
       const container = document.getElementById( 'menu-container' );
       container.innerHTML = '';
 
+      // Get current day index (0 = Sunday, 1 = Monday, etc.)
+      const currentDayIndex = new Date().getDay();
+      const daysInFinnish = [ 'Sunnuntai', 'Maanantai', 'Tiistai', 'Keskiviikko', 'Torstai', 'Perjantai', 'Lauantai' ];
+
+      // Filter menu to show only current and future days
+      const filteredMenu = menu.filter( dayMenu => {
+        const dayName = dayMenu.day.split( ' ' )[ 0 ]; // Get first word of day
+        const menuDayIndex = daysInFinnish.indexOf( dayName );
+        return menuDayIndex >= currentDayIndex;
+      } );
+
       // Create a map to store items and their colors
       const itemColorMap = new Map();
       let colorIndex = 0;
 
       // First pass to identify duplicate items
-      menu.forEach( dayMenu => {
+      filteredMenu.forEach( dayMenu => {
         dayMenu.items.forEach( item => {
           if ( !itemColorMap.has( item ) ) {
             itemColorMap.set( item, cardColors[ colorIndex % cardColors.length ] );
@@ -82,7 +93,7 @@
         } );
       } );
 
-      menu.forEach( ( dayMenu, idx ) => {
+      filteredMenu.forEach( ( dayMenu, idx ) => {
         const card = document.createElement( 'div' );
         card.className = `relative bg-white/40 glass-effect rounded-2xl shadow-xl p-6 flex flex-col
                     transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:bg-white/60

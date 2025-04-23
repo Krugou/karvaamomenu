@@ -41,7 +41,7 @@
 </head>
 
 <body>
-  <div id="info">Viikon Ruokalista</div>
+  <div id="info">Viikon Ruokalista 3D</div>
   <div id="instructions">Use mouse to rotate • Scroll to zoom</div>
   <div id="threejs-container" style="width:100vw;height:100vh;"></div>
   <script type="importmap">
@@ -66,242 +66,169 @@
       } )
       .then( menu => {
         console.log( 'Menu loaded successfully:', menu );
+
+        // Get current day's menu
+        const daysOfWeek = [ 'Sunnuntai', 'Maanantai', 'Tiistai', 'Keskiviikko', 'Torstai', 'Perjantai', 'Lauantai' ];
+        const currentDay = daysOfWeek[ new Date().getDay() ];
+        const todayMenu = menu.find( day => day.day.startsWith( currentDay ) ) || menu[ 0 ];
+
         // Setup Three.js scene
         const container = document.getElementById( 'threejs-container' );
         const scene = new THREE.Scene();
-        scene.background = new THREE.Color( 0x111827 ); // Dark background
+        scene.background = new THREE.Color( 0x111827 );
 
-        // Camera setup
+        // Camera setup with closer view
         const camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 0.1, 1000 );
-        camera.position.set( 0, 15, 35 );
+        camera.position.set( 0, 0, 20 );
 
-        // Renderer setup with better shadows
+        // Renderer setup
         const renderer = new THREE.WebGLRenderer( { antialias: true } );
         renderer.setSize( window.innerWidth, window.innerHeight );
         renderer.shadowMap.enabled = true;
         renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-        container.appendChild( renderer.domElement );        // Orbit controls
+        container.appendChild( renderer.domElement );
+
+        // Orbit controls
         const controls = new OrbitControls( camera, renderer.domElement );
         controls.enableDamping = true;
         controls.dampingFactor = 0.05;
         controls.maxPolarAngle = Math.PI / 1.5;
-        controls.minDistance = 20;
-        controls.maxDistance = 50;
+        controls.minDistance = 10;
+        controls.maxDistance = 30;
 
-        // Enhanced lighting
-        const mainLight = new THREE.DirectionalLight( 0xffffff, 1 );
-        mainLight.position.set( 10, 20, 20 );
+        // Enhanced lighting for single card
+        const mainLight = new THREE.DirectionalLight( 0xffffff, 1.5 );
+        mainLight.position.set( 10, 10, 10 );
         mainLight.castShadow = true;
-        mainLight.shadow.camera.near = 0.1;
-        mainLight.shadow.camera.far = 100;
-        mainLight.shadow.mapSize.width = 2048;
-        mainLight.shadow.mapSize.height = 2048;
         scene.add( mainLight );
 
-        scene.add( new THREE.AmbientLight( 0x666666, 0.7 ) );
+        scene.add( new THREE.AmbientLight( 0x666666, 1 ) );
 
-        // Add colorful point lights
-        const pointLights = [
-          { color: 0xff6b6b, pos: [ 15, 5, 5 ] },
-          { color: 0x4ecdc4, pos: [ -15, 5, 5 ] },
-          { color: 0xffe66d, pos: [ 0, 5, -10 ] }
-        ];
+        // Single rotating spotlight
+        const spotlight = new THREE.SpotLight( 0xffffff, 1 );
+        spotlight.position.set( 15, 15, 15 );
+        spotlight.angle = Math.PI / 6;
+        spotlight.penumbra = 0.5;
+        spotlight.decay = 1;
+        spotlight.distance = 100;
+        spotlight.castShadow = true;
+        scene.add( spotlight );
 
-        pointLights.forEach( light => {
-          const pointLight = new THREE.PointLight( light.color, 0.5 );
-          pointLight.position.set( ...light.pos );
-          scene.add( pointLight );
-        } );
+        // Create single card with enhanced effects
+        const cardW = 10, cardH = 15;
+        const group = new THREE.Group();
 
-        // Card colors with gradients
-        const colors = [
-          { top: 0xf472b6, bottom: 0xec4899 },
-          { top: 0x38bdf8, bottom: 0x2563eb },
-          { top: 0x4ade80, bottom: 0x16a34a },
-          { top: 0xfacc15, bottom: 0xca8a04 },
-          { top: 0xa78bfa, bottom: 0x7c3aed }
-        ];
-
-        // Create floating platform
-        const platform = new THREE.Mesh(
-          new THREE.CylinderGeometry( 20, 22, 1, 32 ),
-          new THREE.MeshPhongMaterial( {
-            color: 0x1e293b,
-            shininess: 100,
-            specular: 0x666666
-          } )
-        );
-        platform.position.y = -3;
-        platform.receiveShadow = true;
-        scene.add( platform );
-
-        // Create 3D cards
-        const cardW = 8, cardH = 12, gap = 3;
-        menu.forEach( ( dayMenu, i ) => {
-          const group = new THREE.Group();
-          const angle = ( i / menu.length ) * Math.PI * 2;
-          const radius = 12;
-
-          // Create card body with gradient effect
-          const color = colors[ i % colors.length ];
-          const mat = new THREE.MeshPhongMaterial( {
-            color: color.top,
-            specular: 0x444444,
-            shininess: 30,
-            transparent: true,
-            opacity: 0.9
-          } );
-
-          const geo = new THREE.BoxGeometry( cardW, cardH, 0.3 );
-          const mesh = new THREE.Mesh( geo, mat );
-          mesh.castShadow = true;
-          mesh.receiveShadow = true;
-
-          // Position in a circle
-          group.position.x = Math.sin( angle ) * radius;
-          group.position.z = Math.cos( angle ) * radius;
-
-          group.rotation.y = -angle + Math.PI / 2;
-
-          // Create text texture with better formatting
-          const canvas = document.createElement( 'canvas' );
-          canvas.width = 1024;
-          canvas.height = 1024;
-          const ctx = canvas.getContext( '2d' );
-
-          // Background gradient
-          const gradient = ctx.createLinearGradient( 0, 0, 0, canvas.height );
-          gradient.addColorStop( 0, '#ffffff' );
-          gradient.addColorStop( 1, '#f8fafc' );
-          ctx.fillStyle = gradient;
-          ctx.fillRect( 0, 0, canvas.width, canvas.height );
-
-          // Day title
-          ctx.fillStyle = '#1e293b';
-          ctx.font = 'bold 60px system-ui';
-          ctx.textAlign = 'center';
-          ctx.fillText( dayMenu.day, canvas.width / 2, 80 );
-
-          // Separator line
-          ctx.strokeStyle = '#cbd5e1';
-          ctx.lineWidth = 2;
-          ctx.beginPath();
-          ctx.moveTo( 50, 100 );
-          ctx.lineTo( canvas.width - 50, 100 );
-          ctx.stroke();
-
-          // Menu items with icons and better formatting
-          ctx.font = '40px system-ui';
-          ctx.textAlign = 'left';
-          let y = 160;
-
-          dayMenu.items.forEach( ( item, j ) => {
-            if ( item.trim() ) {
-              // Draw bullet point
-              ctx.fillStyle = '#64748b';
-              ctx.fillText( '•', 40, y );
-
-              // Draw menu item with word wrap
-              ctx.fillStyle = '#334155';
-              const words = item.split( ' ' );
-              let line = '';
-              words.forEach( word => {
-                const testLine = line + word + ' ';
-                if ( ctx.measureText( testLine ).width > canvas.width - 100 ) {
-                  ctx.fillText( line, 80, y );
-                  line = word + ' ';
-                  y += 50;
-                } else {
-                  line = testLine;
-                }
-              } );
-              ctx.fillText( line, 80, y );
-              y += 50;
-            }
-          } );
-
-          const tex = new THREE.CanvasTexture( canvas );
-          tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
-          const mat2 = new THREE.MeshBasicMaterial( { map: tex, transparent: true } );
-          const plane = new THREE.Mesh( new THREE.PlaneGeometry( cardW - 0.1, cardH - 0.1 ), mat2 );
-          plane.position.z = 0.16;
-
-          group.add( mesh );
-          group.add( plane );
-          scene.add( group );
-        } );
-
-        // Particles for ambient effect
-        const particlesGeometry = new THREE.BufferGeometry();
-        const particlesCount = 200;
-        const positions = new Float32Array( particlesCount * 3 );
-
-        for ( let i = 0; i < particlesCount * 3; i += 3 ) {
-          positions[ i ] = ( Math.random() - 0.5 ) * 50;
-          positions[ i + 1 ] = Math.random() * 30 - 10;
-          positions[ i + 2 ] = ( Math.random() - 0.5 ) * 50;
-        }
-
-        particlesGeometry.setAttribute( 'position', new THREE.BufferAttribute( positions, 3 ) );
-        const particlesMaterial = new THREE.PointsMaterial( {
-          color: 0xaaaaaa,
-          size: 0.1,
+        // Card material with more dramatic gradient
+        const color = { top: 0x4ade80, bottom: 0x16a34a };
+        const mat = new THREE.MeshPhongMaterial( {
+          color: color.top,
+          specular: 0x444444,
+          shininess: 50,
           transparent: true,
-          opacity: 0.5
+          opacity: 0.95
         } );
 
-        const particles = new THREE.Points( particlesGeometry, particlesMaterial );
-        scene.add( particles );      // Enhanced animation with floating effect and particles
+        const geo = new THREE.BoxGeometry( cardW, cardH, 0.3 );
+        const mesh = new THREE.Mesh( geo, mat );
+        mesh.castShadow = true;
+        mesh.receiveShadow = true;
+
+        // Create text texture
+        const canvas = document.createElement( 'canvas' );
+        canvas.width = 2048; // Higher resolution
+        canvas.height = 2048;
+        const ctx = canvas.getContext( '2d' );
+
+        // Background gradient
+        const gradient = ctx.createLinearGradient( 0, 0, 0, canvas.height );
+        gradient.addColorStop( 0, '#ffffff' );
+        gradient.addColorStop( 1, '#f8fafc' );
+        ctx.fillStyle = gradient;
+        ctx.fillRect( 0, 0, canvas.width, canvas.height );
+
+        // Day title
+        ctx.fillStyle = '#1e293b';
+        ctx.font = 'bold 80px system-ui';
+        ctx.textAlign = 'center';
+        ctx.fillText( todayMenu.day, canvas.width / 2, 120 );
+
+        // Separator line
+        ctx.strokeStyle = '#cbd5e1';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.moveTo( 100, 150 );
+        ctx.lineTo( canvas.width - 100, 150 );
+        ctx.stroke();
+
+        // Menu items with better formatting
+        ctx.font = '50px system-ui';
+        ctx.textAlign = 'left';
+        let y = 220;
+
+        todayMenu.items.forEach( ( item ) => {
+          if ( item.trim() ) {
+            // Draw bullet point
+            ctx.fillStyle = '#64748b';
+            ctx.fillText( '•', 80, y );
+
+            // Draw menu item with word wrap
+            ctx.fillStyle = '#334155';
+            const words = item.split( ' ' );
+            let line = '';
+            words.forEach( word => {
+              const testLine = line + word + ' ';
+              if ( ctx.measureText( testLine ).width > canvas.width - 200 ) {
+                ctx.fillText( line, 120, y );
+                line = word + ' ';
+                y += 60;
+              } else {
+                line = testLine;
+              }
+            } );
+            ctx.fillText( line, 120, y );
+            y += 60;
+          }
+        } );
+
+        const tex = new THREE.CanvasTexture( canvas );
+        tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+        const mat2 = new THREE.MeshBasicMaterial( { map: tex, transparent: true } );
+        const plane = new THREE.Mesh(
+          new THREE.PlaneGeometry( cardW - 0.1, cardH - 0.1 ),
+          mat2
+        );
+        plane.position.z = 0.16;
+
+        group.add( mesh );
+        group.add( plane );
+        scene.add( group );
+
+        // Enhanced animation
         let time = 0;
         function animate () {
           time += 0.005;
 
-          // Animate menu cards with gentle floating motion
-          scene.children.forEach( ( obj ) => {
-            if ( obj.type === 'Group' ) {
-              // Floating animation
-              obj.position.y = Math.sin( time + obj.position.x ) * 0.3;
-              // Gentle rotation
-              obj.rotation.y += Math.sin( time * 0.5 ) * 0.001;
-            }
-          } );
+          // More dramatic floating and rotation
+          group.position.y = Math.sin( time ) * 0.5;
+          group.rotation.y = Math.sin( time * 0.5 ) * 0.1;
 
-          // Animate particles
-          if ( particles ) {
-            particles.rotation.y += 0.0003;
-            particles.position.y = Math.sin( time ) * 0.2;
-          }
+          // Rotating spotlight
+          spotlight.position.x = Math.sin( time ) * 15;
+          spotlight.position.z = Math.cos( time ) * 15;
+          spotlight.lookAt( group.position );
 
-          // Animate platform
-          if ( platform ) {
-            platform.rotation.y += 0.001;
-          }
+          // Dynamic camera movement
+          camera.position.x = Math.sin( time * 0.2 ) * 3;
+          camera.lookAt( 0, 0, 0 );
 
-          // Pulsing lights
-          scene.children.forEach( ( obj ) => {
-            if ( obj.type === 'PointLight' ) {
-              obj.intensity = 0.5 + Math.sin( time * 2 + obj.position.x ) * 0.2;
-            }
-          } );
-
-          // Update controls
           controls.update();
-
-          // Render scene
           renderer.render( scene, camera );
           requestAnimationFrame( animate );
         }
 
         animate();
 
-        // Handle window resize
-        window.addEventListener( 'resize', () => {
-          camera.aspect = window.innerWidth / window.innerHeight;
-          camera.updateProjectionMatrix();
-          renderer.setSize( window.innerWidth, window.innerHeight );
-        } );
-
-        // Add hover effect
+        // Enhanced hover effect
         const raycaster = new THREE.Raycaster();
         const mouse = new THREE.Vector2();
 
@@ -310,22 +237,24 @@
           mouse.y = -( event.clientY / window.innerHeight ) * 2 + 1;
 
           raycaster.setFromCamera( mouse, camera );
-          const intersects = raycaster.intersectObjects( scene.children, true );
+          const intersects = raycaster.intersectObject( group, true );
 
-          scene.children.forEach( ( obj ) => {
-            if ( obj.type === 'Group' ) {
-              const isHovered = intersects.some( intersect =>
-                intersect.object.parent === obj
-              );
+          if ( intersects.length > 0 ) {
+            group.scale.setScalar( 1.05 );
+            group.rotation.y = Math.atan2(
+              mouse.x * 0.5,
+              ( camera.position.z - group.position.z ) * 0.1
+            );
+          } else {
+            group.scale.setScalar( 1.0 );
+          }
+        } );
 
-              if ( isHovered ) {
-                obj.scale.setScalar( 1.05 );
-                obj.position.y += 0.5;
-              } else {
-                obj.scale.setScalar( 1.0 );
-              }
-            }
-          } );
+        // Handle window resize
+        window.addEventListener( 'resize', () => {
+          camera.aspect = window.innerWidth / window.innerHeight;
+          camera.updateProjectionMatrix();
+          renderer.setSize( window.innerWidth, window.innerHeight );
         } );
       } )
       .catch( error => {
