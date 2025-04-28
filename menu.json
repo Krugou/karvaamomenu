@@ -1,57 +1,60 @@
 [
   {
-    "day": "Maanantai  2n pääsiäispäivä, ravintola suljettu",
-    "items": []
+    "day": "Maanantai",
+    "items": [
+      "VihannesHalloumi-kasvispasta ja rucolaa (L)",
+      "Pannupihvejä sipulikastikkeessa ja paistettua perunaa (L)",
+      "Paahdetut juurekset",
+      "Greeny runsas salaattipöytä Broileri ja salaattijuusto",
+      "Keitto: Punajuurisosekeittoa (M, G) ja bannock",
+      "Kookos-ananasrahka (L, G) ja talon-keksi",
+      "Grillata: Korealaista kanahampurilaista, lankkuperunat (L)",
+      "Grilli:Korealaistyylinen kanahampurilainen, lankkuperunat (L)"
+    ]
   },
   {
     "day": "Tiistai",
     "items": [
-      "Vegetarian: Kikherne-porkkanapihvejä ja hernehummusta M, G, paahdettua perunaa",
-      "Jogurttimarinoitua broilerin rintafileetä ja valkosipulitomaattikastiketta L, G , basmatiriisiä",
-      "Lämpimiä kasviksia",
-      "Greeny runsas salaattipöytä Tonnikala ja salaattijuusto",
-      "Soup: Pinaattikeittoa ja kananmunaa L, G ja bannock",
-      "Dessert: Mangorahka L, G ja talon cookie",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
+      "Kasvispihvit, piparjuurikastiketta ja yrttikauraa (M, G, Veg)",
+      "Ylikypsääpossua bbq- kastikkeessa ja valkosipuliperunat (L, G)",
+      "Lämpimät kasvikset",
+      "Greeny runsas salaattipöytä Tonnikala ja halloumi",
+      "Keitto: Paahdettua sellerisosekeittoa (L, G) ja bannock",
+      "Jälkiruoka: Mustaherukkakiisseli (M,G) ja kermavaahto (L, G) ja talon cookie",
+      "Grilli: Korealaista kanahampurilaista, lankkuperunat (L)",
+      "Korealaistyylinen kanahampurilainen, lankkuperunat (L)"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Vegetarian: Sticky tofua, wokattuja kasviksia ja jasminriisiä M, G, Vs, So, Veg",
-      "Porsaanleikettä, sitruunaisia vihreitä papuja, kaprismajoneesia ja paahdettuja perunoita L",
-      "Kirjolohikeitto L, G, saaristolaisleipää M",
-      "Greeny runsas salaattipöytä Katkarapuja ja chorizo-pyörykät",
-      "Soup: Juuressosekeitto L, G ja bannock",
-      "Dessert: Raparperipaistos L ja vaniljavaahtoa L, G talon cookie L",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
+      "Kasvis kormacurry, basmatiriisi M, G, Vs, Veg",
+      "Rapea kana, mango-aiolia ja peruna-kasvispaistosta M, G, Vs",
+      "Keitto: Tomaatti-pestokeitto L, G",
+      "Jälkiruoka: Vapun herkut; vaahtokarkkeja, donitseja, mansikoita ja jäätelöä",
+      "Grilli: Korealaista kanahampurilaista, lankkuperunat (L)",
+      "Korealainen stylr ei kanahampurilainen, lankkuperunat (L)"
     ]
   },
   {
-    "day": "Torstai",
-    "items": [
-      "Vegetarian: Perunagnoccheja, kirsikkatomaatteja ja mozzarellaa L",
-      "Cajunbroileria, limejogurttia ja riisiä L, G, Vs",
-      "Lämpimiä kasviksia",
-      "Greeny runsas salaattipöytä Savulohi ja mozzarella",
-      "Soup: Bataattisosekeittoa L, G ja bannock",
-      "Dessert: Amerikkalaisia pannukakkuja L, marjahilloa, vaahterasiirappia ja kermavaahtoa, talon cookie L",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
-    ]
+    "day": "Torstai 1.5. Vappupäivä, ravintola suljettu",
+    "items": []
+  },
+  {
+    "day": "",
+    "items": []
   },
   {
     "day": "Perjantai",
     "items": [
-      "Taco buffa; revittyä bbq possua, salsaa, ranskankermaa ja cuacamolea (L, G)",
-      "Taco buffa; revittyä nyhtökauraa, salsaa, ranskankermaa ja cuacamolea (L, G)",
-      "Greeny runsas salaattipöytä Naudanpaistia ja marinoitua tofua",
-      "Soup: Ramenkeittoa L, G ja bannock",
-      "Dessert: Mutakakkua L ja vaniljavaahtoa L, G ja talon cookie",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Crispy no-chicken, bbq dressing ja lankkuperunoita L"
+      "Roomalainen scrocciatella pizza; kevätsipulia, kirsikkatomaattia ja basilikaa (L)",
+      "Paistettua lohta, yrttitarhankastiketta ja tilliperunaa",
+      "Paahdettuja kasviksia",
+      "Greeny runsas salaattipöytä: Revitty possu, kermajuustokuutio",
+      "Keitto: Kasvissosekeittoa (L, G) ja bannock",
+      "Jälkiruoka: Marinoitu tuorehedelmäsalaatti ja kermavaahtoa (L, G) ja talon cookie",
+      "Grilli: Korealaista kanahampurilaista, lankkuperunat (L)",
+      "Korealaistyylinen kanahampurilainen, lankkuperunat (L)"
     ]
   }
 ]
