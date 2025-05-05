@@ -2,59 +2,66 @@
   {
     "day": "Maanantai",
     "items": [
-      "VihannesHalloumi-kasvispasta ja rucolaa (L)",
-      "Pannupihvejä sipulikastikkeessa ja paistettua perunaa (L)",
-      "Paahdetut juurekset",
-      "Greeny runsas salaattipöytä Broileri ja salaattijuusto",
-      "Keitto: Punajuurisosekeittoa (M, G) ja bannock",
-      "Kookos-ananasrahka (L, G) ja talon-keksi",
-      "Grillata: Korealaista kanahampurilaista, lankkuperunat (L)",
-      "Grilli:Korealaistyylinen kanahampurilainen, lankkuperunat (L)"
+      "Paahdettua punajuurta ja vuohenjuustoa sekä nyhtökauraa VL, G",
+      "Butter chicken, basmatiriisiä ja valkosipulileipää L, (G)",
+      "Lämpimiä kasviksia",
+      "Greeny runsas salaattipöytä Katkarapuja ja salaattijuustoa",
+      "Soup: Fenkolilla maustettua porkkanakeittoa L, G",
+      "Dessert: Kuningatarrahka L, G",
+      "Grill: Ranch hampurilainen, sipulirenkaat ja lankkuperunat L 14 €",
+      "Grill: Ranch no-chicken kasvisburgeri, sipulirenkaat ja lankkuperunat L 14€"
     ]
   },
   {
     "day": "Tiistai",
     "items": [
-      "Kasvispihvit, piparjuurikastiketta ja yrttikauraa (M, G, Veg)",
-      "Ylikypsääpossua bbq- kastikkeessa ja valkosipuliperunat (L, G)",
-      "Lämpimät kasvikset",
-      "Greeny runsas salaattipöytä Tonnikala ja halloumi",
-      "Keitto: Paahdettua sellerisosekeittoa (L, G) ja bannock",
-      "Jälkiruoka: Mustaherukkakiisseli (M,G) ja kermavaahto (L, G) ja talon cookie",
-      "Grilli: Korealaista kanahampurilaista, lankkuperunat (L)",
-      "Korealaistyylinen kanahampurilainen, lankkuperunat (L)"
+      "Kasvispyöryköitä, tuoretomaattikastiketta ja paistettuja rosmariiniperunoita M, G",
+      "Jauhelihalasagne L",
+      "Paahdettuja kasviksia",
+      "Greeny runsas salaattipöytä Broileria ja mozzarellaa",
+      "Soup: Linssi-tomaattikeittoa L, G",
+      "Dessert: Mustikkakiisseli ja kermavaahtoa L, G",
+      "Grill Ranch hampurilainen ja lankkuperunat L 14 €",
+      "Ranch no-chicken kasvisburgeri ja lankkuperunat L 14€"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Kasvis kormacurry, basmatiriisi M, G, Vs, Veg",
-      "Rapea kana, mango-aiolia ja peruna-kasvispaistosta M, G, Vs",
-      "Keitto: Tomaatti-pestokeitto L, G",
-      "Jälkiruoka: Vapun herkut; vaahtokarkkeja, donitseja, mansikoita ja jäätelöä",
-      "Grilli: Korealaista kanahampurilaista, lankkuperunat (L)",
-      "Korealainen stylr ei kanahampurilainen, lankkuperunat (L)"
+      "Lehtikaali-tofuwokki ja basmatiriisiä M, G",
+      "Broileria pähkinä-kookoskastikkeessa ja basmatiriisiä M, G, Pä",
+      "Paahdettuja kasviksia",
+      "Greeny runsas salaattipöytä: Falafelit ja seesamipossua",
+      "Soup: Purjo-perunasosekeitto L, G",
+      "Dessert: Sitrusmousse L, G",
+      "Grill: Ranch hampurilainen ja lankkuperunat L 14 €",
+      "Ranch no-chicken kasvisburgeri ja lankkuperunat L 14€"
     ]
   },
   {
-    "day": "Torstai 1.5. Vappupäivä, ravintola suljettu",
-    "items": []
-  },
-  {
-    "day": "",
-    "items": []
+    "day": "Torstai",
+    "items": [
+      "Kikherne-porkkanapihvejä, vegaanista tzatzikia ja basmatiriisiä M,G",
+      "Naudanlihastifado ja yrttipaahdettua perunaa L, G",
+      "Lämpimiä kasviksia",
+      "Greeny runsas salaattipöytä Tonnikala ja salaattijuusto",
+      "Soup: Juuressosekeitto L, G",
+      "Dessert: Amerikkalaisia pannukakkuja, vaahterasiirappia ja kermavaahtoa L",
+      "Grill:  Ranch hampurilainen ja lankkuperunat L 14 €",
+      "Grill: Ranch no-chicken kasvisburgeri ja lankkuperunat L 14€"
+    ]
   },
   {
     "day": "Perjantai",
     "items": [
-      "Roomalainen scrocciatella pizza; kevätsipulia, kirsikkatomaattia ja basilikaa (L)",
-      "Paistettua lohta, yrttitarhankastiketta ja tilliperunaa",
+      "Tortillat, mausteista kasvis-mustapapuhauduketta, cuacamolea ja ranskankermaa L",
+      "Paistettua seitiä, katkarapuhollandaisea ja tilliperunaa L",
       "Paahdettuja kasviksia",
-      "Greeny runsas salaattipöytä: Revitty possu, kermajuustokuutio",
-      "Keitto: Kasvissosekeittoa (L, G) ja bannock",
-      "Jälkiruoka: Marinoitu tuorehedelmäsalaatti ja kermavaahtoa (L, G) ja talon cookie",
-      "Grilli: Korealaista kanahampurilaista, lankkuperunat (L)",
-      "Korealaistyylinen kanahampurilainen, lankkuperunat (L)"
+      "Greeny runsas salaattipöytä Broileria ja kasvispyöryköitä",
+      "Soup: Herkkusienikeitto L, G",
+      "Dessert: Banoffee L",
+      "Grill: Ranch hampurilainen ja lankkuperunat L 14 €",
+      "Ranch no-chicken kasvisburgeri ja lankkuperunat L 14€"
     ]
   }
 ]
