@@ -2,55 +2,66 @@
   {
     "day": "Maanantai",
     "items": [
-      "Vegan: Punajuuripyörykät, vegaaninen piparjuurikastike ja yrttiperunaa M, G, Veg",
-      "Sitruunaista broileria Limonello ja pilahviriisiä L, G",
+      "Vegetarian: Kikherne-porkkanapihvejä ja hernehummusta M, G, paahdettua perunaa",
+      "Jogurttimarinoitua broilerin rintafileetä ja valkosipulitomaattikastiketta L, G , basmatiriisiä",
       "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Parsakeittoa L, G ja bannock",
-      "Dessert: Kookos-passionhedelmärahka L, G ja talon cookie",
-      "Grill: Naudanlihaburgeri, pekonihilloa, jalapeno-aiolia ja lankkuperunoita L 14€",
-      "Grill: Halloumiburger, jalapeno-aiolia ja lankkuperunoita L 14€"
+      "Soup: Pinaattikeittoa ja kananmunaa L, G ja bannock",
+      "Dessert: Ruusunmarjarahka L, G ja talon cookie",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
     ]
   },
   {
     "day": "Tiistai",
     "items": [
-      "Vegan: Bataattia ja härkistä satay-kastikkeessa, riisiä M, G, Pä, Vs, Veg",
-      "KirjolohiWallenberginpihvi, kevätsipulijogurttia, herneitä ja perunamuusia L, G",
-      "Paahdettuja kasviksia",
+      "Vegan: Kasviscurry, paahdettuja pähkinöitä sekä basmatiriisiä M, G, Vs, Pä, Veg",
+      "Provancen naudanliharagout ja oliivipaahdettua perunaa M, G",
       "Greeny runsas salaattipöytä",
-      "Soup: Tomaatti-basilikakeittoa M, G",
-      "Dessert Omenakiisseli, kaneli-kermavaahtoa L, G, talon cookie",
-      "Grill: Naudanlihaburgeri, pekonihilloa, jalapeno-aiolia ja lankkuperunoita L 14€",
-      "Grill: Halloumiburger, jalapeno-aiolia ja lankkuperunoita L 14€"
+      "Soup: Tomaattikeitto M, G ja bannock",
+      "Dessert: Vadelmakiisseli M, G, kermavaahto L, G ja talon cookie L",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Vegan: Teri yaki tofua, kasvis-riisipaistosta ja vegaanista yrttikreemiä M, G, So, Veg, vs",
-      "Lihamureke, tomaatti-basilikakastiketta ja persiljaperunaa L, G",
-      "Paahdettuja kasviksia",
+      "Vegan grillistä: Sticky tofua, wokattuja kasviksia ja jasminriisiä M, G, Vs, So, Veg",
+      "Porsaanleikettä, sitruunaisia vihreitä papuja, kaprismajoneesia ja paahdettuja perunoita L",
+      "Kirjolohikeitto L, G, mallasleipää M",
       "Greeny runsas salaattipöytä",
-      "Soup: Purjo-perunasosekeittoa L, G ja bannock",
-      "Dessert: Rahkapannukakkuja, marjahilloa ja kermavaahtoa ja talon cookie",
-      "Grill: Naudanlihaburgeri, pekonihilloa, jalapeno-aiolia ja lankkuperunoita L 14€",
-      "Grill: Halloumiburger, jalapeno-aiolia ja lankkuperunoita L 14€"
+      "Soup: Juuressosekeitto L, G ja bannock",
+      "Dessert: Banoffee L ja talon cookie L",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
     ]
   },
   {
     "day": "Torstai",
-    "items": []
+    "items": [
+      "Brunssi alk kl 9:00",
+      "Perunagnoccheja, kirsikkatomaatteja, rucolaa ja mozzarellaa L",
+      "Cajunbroileria, limejogurttia ja riisiä L, G, Vs",
+      "Lämpimiä kasviksia",
+      "Greeny runsas salaattipöytä",
+      "Soup: Bataattisosekeittoa L, G ja bannock",
+      "Dessert Ohukaisia L, marjahilloa ja kermavaahtoa, talon cookie L",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
+    ]
   },
   {
     "day": "Perjantai",
     "items": [
-      "Gyrosbuffet: Halloumia, tzatzikia, pikkelöityjä vihanneksia, pitaleipää ja pfefferoneja L",
-      "Gyrosbuffett: Kanaa, tzatzikia, pikkelöityjä vihanneksia, pitaleipää ja pfefferoneja L",
+      "Taco buffa; bbq nyhtökauraa, salsaa, ranskankermaa ja cuacamolea (L, G)",
+      "Taco buffa; revittyä bbq possua, salsaa, ranskankermaa ja cuacamolea (L, G)",
+      "Cajun cole slaw",
       "Greeny runsas salaattipöytä",
-      "Soup: Kasvissosekeittoa L, G ja bannock",
-      "Dessert: Jäätelöä ja makeita kastikkeita L, G",
-      "Grill: Suljettu"
+      "Soup: Ramenkeittoa M ja bannock",
+      "Dessert: Mutakakkua L ja vaniljavaahtoa L, G ja talon cookie",
+      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
+      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
     ]
   }
 ]
