@@ -2,66 +2,67 @@
   {
     "day": "Maanantai",
     "items": [
-      "Vegetarian: Kikherne-porkkanapihvejä ja hernehummusta M, G, paahdettua perunaa",
-      "Jogurttimarinoitua broilerin rintafileetä ja valkosipulitomaattikastiketta L, G , basmatiriisiä",
-      "Lämpimiä kasviksia",
+      "Vegetarian: Halloumi-kasvispasta ja rucolaa (L)",
+      "Pannupihvejä sipulikastikkeessa ja paistettua perunaa (L)",
+      "Paahdetut kasvikset",
       "Greeny runsas salaattipöytä",
-      "Soup: Pinaattikeittoa ja kananmunaa L, G ja bannock",
-      "Dessert: Ruusunmarjarahka L, G ja talon cookie",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Crispy no-chicken burger, bbq dressing ja lankkuperunoita L"
+      "Soup: Punajuurisosekeittoa (M, G) ja bannock",
+      "Dessert: Kookos-ananasrahka (L, G) ja talon cookie",
+      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
+      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
     ]
   },
   {
     "day": "Tiistai",
     "items": [
-      "Vegan: Kasviscurry, paahdettuja pähkinöitä sekä basmatiriisiä M, G, Vs, Pä, Veg",
-      "Provancen naudanliharagout ja oliivipaahdettua perunaa M, G",
+      "Vegan: Kasvispihvit, piparjuurikastiketta ja yrttikauraa (M, G, Veg)",
+      "Ylikypsääpossua bbq- kastikkeessa ja valkosipuliperunat (L, G)",
+      "Lämpimät kasvikset",
       "Greeny runsas salaattipöytä",
-      "Soup: Tomaattikeitto M, G ja bannock",
-      "Dessert: Vadelmakiisseli M, G, kermavaahto L, G ja talon cookie L",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
+      "Soup: Paahdettua sellerisosekeittoa (L, G) ja bannock",
+      "Dessert: Herukkakiisseli (M,G) ja kermavaahto (L, G) ja talon cookie",
+      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
+      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Vegan grillistä: Sticky tofua, wokattuja kasviksia ja jasminriisiä M, G, Vs, So, Veg",
-      "Porsaanleikettä, sitruunaisia vihreitä papuja, kaprismajoneesia ja paahdettuja perunoita L",
-      "Kirjolohikeitto L, G, mallasleipää M",
+      "Vegan grillistä: Kasvis kormacurry, basmatiriisi M, G, Vs, Veg",
+      "Paistettuja muikkuja, perunamuusia (L)",
+      "Juustokuorrutettua uunimakkaraa ja persiljamuhennettua perunaa (L, G)",
+      "Lämpimät kasvikset",
       "Greeny runsas salaattipöytä",
-      "Soup: Juuressosekeitto L, G ja bannock",
-      "Dessert: Banoffee L ja talon cookie L",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
+      "Soup: Tomaatti-pestokeitto L, G",
+      "Dessert: Mustikka-kaurapaistos ja vaniljavaahtoa (L) ja talon cookie",
+      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
+      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
     ]
   },
   {
     "day": "Torstai",
     "items": [
-      "Brunssi alk kl 9:00",
-      "Perunagnoccheja, kirsikkatomaatteja, rucolaa ja mozzarellaa L",
-      "Cajunbroileria, limejogurttia ja riisiä L, G, Vs",
-      "Lämpimiä kasviksia",
+      "Vegan: Kasvis thaiwokki, jasminriisiä (M, G, Veg)",
+      "Lyonin broileria, yrttipaahdettua perunaa (L, G)",
+      "Paahdettuja Provencen kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Bataattisosekeittoa L, G ja bannock",
-      "Dessert Ohukaisia L, marjahilloa ja kermavaahtoa, talon cookie L",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
+      "Soup: Kukkakaalisosekeitto (L, G)",
+      "Dessert: Kardemummapannukakkua, kirsikka- ja marjahilloa, kermavaahtoa ja talon cookie (L)",
+      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
+      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
     ]
   },
   {
     "day": "Perjantai",
     "items": [
-      "Taco buffa; bbq nyhtökauraa, salsaa, ranskankermaa ja cuacamolea (L, G)",
-      "Taco buffa; revittyä bbq possua, salsaa, ranskankermaa ja cuacamolea (L, G)",
-      "Cajun cole slaw",
+      "Vegetarian: Roomalainen scrocciatella pizza; kevätsipulia, kirsikkatomaattia ja basilikaa (L)",
+      "Paistettua lohta, yrttitarhankastiketta ja tilliperunaa (L, G)",
+      "Paahdettuja kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Ramenkeittoa M ja bannock",
-      "Dessert: Mutakakkua L ja vaniljavaahtoa L, G ja talon cookie",
-      "Grill: Cheese burger, bbq dressing ja lankkuperunoita L",
-      "Grill: Veggie burger, bbq dressing ja lankkuperunoita L"
+      "Soup: Kasvissosekeittoa (L, G) ja bannock",
+      "Dessert: Marinoitu tuorehedelmäsalaatti ja kermavaahtoa (L, G) ja talon cookie",
+      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
+      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
     ]
   }
 ]
