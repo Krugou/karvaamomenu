@@ -2,67 +2,58 @@
   {
     "day": "Maanantai",
     "items": [
-      "Vegetarian: Halloumi-kasvispasta ja rucolaa (L)",
-      "Pannupihvejä sipulikastikkeessa ja paistettua perunaa (L)",
-      "Paahdetut kasvikset",
-      "Greeny runsas salaattipöytä",
-      "Soup: Punajuurisosekeittoa (M, G) ja bannock",
-      "Dessert: Kookos-ananasrahka (L, G) ja talon cookie",
-      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
-      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
+      "Vegetarian Paahdettua punajuurta ja vuohenjuustoa sekä nyhtökauraa VL, G",
+      "Butter chicken, basmatiriisiä ja valkosipulileipää L, (G)",
+      "Lämpimiä kasviksia",
+      "Greeny runsas salaattipöytä:",
+      "Soup: Fenkolilla maustettua porkkanakeittoa L, G",
+      "Dessert: Kuningatarrahka L, G",
+      "Grill: Ranch hampurilainen ja lankkuperunat L 14,00 €",
+      "Grill: Ranch no-chicken kasvisburgeri ja lankkuperunat L 14,00 €"
     ]
   },
   {
-    "day": "Tiistai",
+    "day": "Tiistai Kesälounas",
     "items": [
-      "Vegan: Kasvispihvit, piparjuurikastiketta ja yrttikauraa (M, G, Veg)",
-      "Ylikypsääpossua bbq- kastikkeessa ja valkosipuliperunat (L, G)",
-      "Lämpimät kasvikset",
-      "Greeny runsas salaattipöytä",
-      "Soup: Paahdettua sellerisosekeittoa (L, G) ja bannock",
-      "Dessert: Herukkakiisseli (M,G) ja kermavaahto (L, G) ja talon cookie",
-      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
-      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
+      "Vegetarian: Kikhernepihvit, tzatzikia, babaganough ja chermoula-kasviksia L, G, Vs",
+      "Ylikypsää savustettua possunfileetä ja kevätsipulikreemiä L, G",
+      "Yrttinen varhaisperuna-kasvispaistos",
+      "Greeny runsas salaattipöytä: Vihersalaattia, Savulohisalaattia, Halloumi- mansikkasalaattia, Caesarsalaattia, Silakkaa ja sillejä, Katkarapuskagenia, Pikkelöityä kaalisalaattia, Paahdettuja kasviksia, mummonkurkkua, Kevätsipulifrittata, kananmunia, oliiveja, tsatsikia, baba ganough, harissajogurttia, varhaisperunoita ja tilliä, sekä saaristolaisleipää",
+      "Soup: Kesäkeitto L, G",
+      "Dessert: Mansikkakakku L",
+      "Grill Ranch hampurilainen ja lankkuperunat L 14,00 €",
+      "Grill Ranch no-chicken kasvisburgeri ja lankkuperunat L 14,00 €",
+      "Grill Grillimakkaraa, ranch-cole slaw ja sinappi-aiolia M, G, Vs 14,00 €"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Vegan grillistä: Kasvis kormacurry, basmatiriisi M, G, Vs, Veg",
-      "Paistettuja muikkuja, perunamuusia (L)",
-      "Juustokuorrutettua uunimakkaraa ja persiljamuhennettua perunaa (L, G)",
-      "Lämpimät kasvikset",
-      "Greeny runsas salaattipöytä",
-      "Soup: Tomaatti-pestokeitto L, G",
-      "Dessert: Mustikka-kaurapaistos ja vaniljavaahtoa (L) ja talon cookie",
-      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
-      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
+      "Vegetarian Lehtikaali-tofuwokki ja basmatiriisiä M, G",
+      "Paistettua kampelaa, katkarapuhollandaise ja tilliperunaa L",
+      "Paahdettuja kasviksia",
+      "Greeny runsas salaattipöytä:",
+      "Soup: Purjo-perunasosekeitto L, G",
+      "Dessert: Sitrusmousse L, G",
+      "Grill: Ranch hampurilainen ja lankkuperunat L 14,00 €",
+      "Grill: Ranch no-chicken kasvisburgeri ja lankkuperunat L 14,00 €"
     ]
   },
   {
     "day": "Torstai",
     "items": [
-      "Vegan: Kasvis thaiwokki, jasminriisiä (M, G, Veg)",
-      "Lyonin broileria, yrttipaahdettua perunaa (L, G)",
-      "Paahdettuja Provencen kasviksia",
+      "Vegetarian: Tortillat, mausteista kasvis-mustapapuhauduketta, cuacamolea ja ranskankermaa L",
+      "Karitsajauhelihapihvit, tumma timjamikastike ja paahdettua perunaa L, Vs",
+      "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Kukkakaalisosekeitto (L, G)",
-      "Dessert: Kardemummapannukakkua, kirsikka- ja marjahilloa, kermavaahtoa ja talon cookie (L)",
-      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
-      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
+      "Soup: Herkkusienikeitto L, G",
+      "Dessert: Amerikkalaisia pannukakkuja, vaahterasiirappia ja kermavaahtoa L",
+      "Grill:  Ranch hampurilainen ja lankkuperunat L 14,00 €",
+      "Grill: Ranch no-chicken kasvisburgeri ja lankkuperunat L 14,00 €"
     ]
   },
   {
-    "day": "Perjantai",
-    "items": [
-      "Vegetarian: Roomalainen scrocciatella pizza; kevätsipulia, kirsikkatomaattia ja basilikaa (L)",
-      "Paistettua lohta, yrttitarhankastiketta ja tilliperunaa (L, G)",
-      "Paahdettuja kasviksia",
-      "Greeny runsas salaattipöytä",
-      "Soup: Kasvissosekeittoa (L, G) ja bannock",
-      "Dessert: Marinoitu tuorehedelmäsalaatti ja kermavaahtoa (L, G) ja talon cookie",
-      "Grill: Chicken Korean style burger, lankkuperunat (L) 14,00 €",
-      "Grill: Korean style no chicken burger, lankkuperunat (L) 14,00 €"
-    ]
+    "day": "Perjantai, Ravintola suljettu, Juhannusaatto",
+    "items": []
   }
 ]
