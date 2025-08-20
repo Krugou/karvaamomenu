@@ -2,8 +2,8 @@
   {
     "day": "Maanantai",
     "items": [
-      "Vegan: Revitty tofu-tomaattipastaa ja rucolaa M, Veg",
       "Korean bulgogi; possua, soijaa, chiliä ja inkivääriä sekä riisiä L, G, So, Vs",
+      "Vegan: Revitty tofu-tomaattipastaa ja rucolaa M, Veg",
       "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
       "Soup: Tuorehernesosekeittoa L, G",
@@ -13,19 +13,19 @@
   {
     "day": "Tiistai",
     "items": [
-      "Vegan: Vegaaninen juuresgratiini ja värikkäitä papuja M, G, Veg",
       "Crispy chicken, tomaattikastiketta ja riisiä L",
+      "Vegan: Vegaaninen juuresgratiini ja värikkäitä papuja M, G, Veg",
       "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
       "Soup: Mustajuurisosekeittoa L G",
-      "Dessert: Marjakiisseli ja kermavaahtoa L, G"
+      "Dessert: Marjakiisseli M, G ja kermavaahtoa L, G"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Kasvis-linssicurry ja riisiä M, G, Veg",
       "Mallaspyörykät, tumma rosmariinikastike ja paahdettua perunaa L",
+      "Kasvis-linssicurry ja riisiä M, G, Veg",
       "Paahdettuja kasviksia",
       "Greeny runsas salaattipöytä",
       "Soup: Parsakaalisosekeittoa L, G",
@@ -35,9 +35,9 @@
   {
     "day": "Torstai",
     "items": [
-      "Vegan: Grillattua tofua ja kasviksia sitruunaruoho-chilikastikkeessa, basmatiriisiä M, G, So, Veg",
       "Paneroitua kampelaa, tartarkermaviili, perunamuusia L",
       "Szechuan härkää ja paistettuja kasvisnuudeleita",
+      "Vegan: Grillattua tofua ja kasviksia sitruunaruoho-chilikastikkeessa, basmatiriisiä M, G, So, Veg",
       "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
       "Soup: Inkivääri-porkkanasosekeittoa L, G",
@@ -47,8 +47,8 @@
   {
     "day": "Perjantai",
     "items": [
-      "Vegan: Kukkakaaliwingsit, vegaanista tzatzikia ja papumuhennosta (Veg)",
       "Broileria ja kasviksia smetanakastikkeessa sekä paahdettua perunaa L, G",
+      "Vegan: Kukkakaaliwingsit, vegaanista tzatzikia ja papumuhennosta (Veg)",
       "Paahdettuja kasviksia",
       "Greeny runsas salaattipöytä",
       "Soup: Juuressosekeittoa L, G",
