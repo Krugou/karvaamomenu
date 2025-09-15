@@ -2,57 +2,55 @@
   {
     "day": "Maanantai",
     "items": [
-      "Lindströminpihvejä tummaa sipulikastiketta ja perunaa L, G",
-      "Vegan: Kikherneitä, kukkakaalta ja perunaa aloo gobi sekä kurkumariisiä M, G, Veg",
-      "Paahdetut juurekset",
+      "Kievin kanaa ja valkosipulijogurttikastiketta L sekä paahdettua perunaa",
+      "Vegan: Kasvis-tofutagine M, G, Veg ja riisiä",
+      "Lämpimät kasvikset",
       "Greeny runsas salaattipöytä",
-      "Soup: Selleri-omenasosekeitto M, G, Se",
-      "Dessert: Kookos-ananasrahka L, G"
+      "Soup: Bataattisosekeitto L, G",
+      "Dessert: Puolukka-kinuskivaahto L, G"
     ]
   },
   {
     "day": "Tiistai",
     "items": [
-      "Hapanimelä kanawokki, riisi M, G, Vs, Chili",
-      "Juustokuorrutettua uunimakkaraa ja perunamuusia L, G",
-      "Vegan: Kasvis kormacurry, basmatiriisi M, G, Vs, Veg",
-      "Lämpimät kasvikset",
+      "Lihapyöryköitä viherpippurikastikkeessa ja perunaa L, G",
+      "Vegan: Mausteinen bataatti-papupata, vegaanista sitruunakreemiä ja riisiä M, G, Veg",
+      "Paahdetut juurekset",
       "Greeny runsas salaattipöytä",
-      "Soup: Punajuurisosekeittoa L, G",
-      "Dessert: Passionhedelmäkiisseli ja kookoskermavaahtoa L, G"
+      "Soup:Tomaatti-vuohenjuustokeitto VL, G",
+      "Dessert: Persikkakiisseli (M, G) ja kermavaahtoa L, G"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Lyonin broileria, yrttipaahdettua perunaa L, G",
-      "Vegan: Kasvispihvit, piparjuurikastiketta ja yrttikauraa M, G, Veg",
-      "Lämpimät kasvikset",
+      "Marry me kanaa L, G, pastaa",
+      "Vegan: Härkäpapu-kasviswokki ja nuudeleita soijainkiväärikastikkeessa M, Vs, Veg",
+      "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Tomaatti-pestokeitto L, G",
-      "Dessert: Mustikka-kaurapaistos ja vaniljavaahtoa L, Gluteeniton pyydettäessä"
+      "Soup: Palsternakkasosekeittoa L, G",
+      "Dessert: Mansikkarahka L, G"
     ]
   },
   {
     "day": "Torstai",
     "items": [
-      "Ylikypsää possua bbq-kastikkeessa ja valkosipuliperunoita L, G, Vs",
-      "Vegan: asvis thaiwokki, jasminriisiä M, G, Veg",
-      "Paahdettuja Provencen kasviksia",
+      "LEMPIRUOKA Uunilohta, sitruunajogurttikastiketta L, tilliperunaa",
+      "Vegan: Yrttiset kasvispihvit ja tomaattinen papumuhennos M, G, Veg ja riisiä",
+      "Paahdettuja kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Metsäsienikeitto (M, G)",
-      "Dessert: Pannukakkua, marjahilloa, kermavaahtoa L, Gluteeniton pyydettäessä"
+      "Soup: Linssisosekeittoa M, G, Veg",
+      "Dessert: Ohukaiset, marjahilloa ja kermavaahtoa (L)"
     ]
   },
   {
     "day": "Perjantai",
     "items": [
-      "Paistettua lohta, yrttitarhankastiketta ja tilliperunaa (L, G)",
-      "Vegetarian: Roomalainen scrocciatella pizza; mozzarellaa, kirsikkatomaattia ja basilikaa L, Gluteeniton pyydettäessä",
-      "Paahdettuja kasviksia",
+      "Ylikypsää possua BBQ ja valkosipuliperunoita L, G",
+      "LEMPIRUOKA Vegetarian: Pinaattilettuja ja puolukkaa L Gluteeniton pyydettäessä",
       "Greeny runsas salaattipöytä",
       "Soup: Kasvissosekeittoa L, G",
-      "Dessert: Jälkiruokabuffet, valikoima jälkiruokia"
+      "Dessert: Jälkiruokabuffet: valikoima jälkiruokia"
     ]
   }
 ]
