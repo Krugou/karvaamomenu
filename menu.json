@@ -2,57 +2,57 @@
   {
     "day": "Maanantai",
     "items": [
-      "Jogurttimarinoitua broilerin rintafileetä, basmatiriisiä ja valkosipulitomaattikastiketta L, G, Vs",
-      "Vegan: Kikherne-porkkanapihvejä, minttu-hernehummusta ja paahdettua perunaa M, G, Vs, Veg",
+      "Butter chicken, basmatiriisiä ja valkosipulileipää L, (G)",
+      "Vegetarian: Paahdettua punajuurta, vuohenjuustoa ja värikkäitä papuja ja yrtti- jogurttikastiketta VL, G, Vegaaninen pyydettäessä",
       "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Pinaattikeittoa ja kananmunaa L, G",
-      "Dessert: Mustikkarahkaa L, G"
+      "Soup: Linssi-tomaattikeittoa M, G",
+      "Dessert: Kuningatar-rahkaa L, G"
     ]
   },
   {
     "day": "Tiistai",
     "items": [
-      "Italian lihapyöryköitä, pestoperunaa ja tomaatti-basilikakastiketta L, Vs, Gluteeniton pyydettäessä",
-      "Vegan: Kasviscurry, paahdettuja pähkinöitä sekä basmatiriisiä M, G, Vs, Pä, Veg",
-      "Lämpimiä kasviksia",
+      "Pannupihvit, paistettua sipulia, ruskeakastiketta ja perunaa L, gluteeniton pyydettäessä",
+      "Vegan: Kasvispyöryköitä, tuoretomaattikastiketta ja paistettuja rosmariiniperunoita M, G, Veg",
+      "Paahdettuja kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Tomaattikeittoa M, G",
-      "Dessert: Jäätelöbuffet, kastikkeita, vaahterasiirappia ja vaahtokarkkeja G"
+      "Soup: Fenkolilla maustettua porkkanakeittoa L, G",
+      "Dessert: Sitrusmoussea L, G"
     ]
   },
   {
     "day": "Keskiviikko",
     "items": [
-      "Lempiruoka: Kirjolohikeittoa L, G, saaristolaisleipää M",
-      "Chorizopastaa L, Vs, Gluteeniton pyydettäessä",
-      "Vegan: Sticky tofua, wokattuja kasviksia ja jasminriisiä M, G, Vs, So, Veg",
-      "Lämpimiä kasviksia",
+      "Chermoula-kanaa, rucolaa, Parmesania ja semikuivattua tomaattia L, G",
+      "Paistettua seitä, voi-valkoviinikastiketta ja tilliperunaa L, gluteeniton pyydettäessä",
+      "Vegan: Lehtikaali-tofuwokki ja basmatiriisiä M, G, Veg",
+      "Paahdettuja kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Juuressosekeittoa L, G",
-      "Dessert: Vadelmakiisseliä M, G, kermavaahtoa L, G"
+      "Soup: Purjo-perunasosekeittoa L, G",
+      "Dessert: Mustikkakiisseliä ja kermavaahtoa L, G"
     ]
   },
   {
     "day": "Torstai",
     "items": [
-      "Chicken thai; kanaa, kookosmaitoa, currytahnaa ja cashewpähkinää L, G,Vs, Pä",
-      "Vegetarian: Perunagnoccheja, kirsikkatomaatteja ja mozzarellaa L, Gluteeniton pyydettäessä",
+      "Kebabia arrabiata- kastikeessa, valkosipulijogurttia, riisiä L, G, Vs ja pitaleipää L",
+      "Vegan: Kikherne-porkkanapihvejä, vegaanista tzatzikia ja basmatiriisiä M, G, Vs, Veg",
       "Lämpimiä kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Bataattisosekeittoa L, G",
-      "Dessert: Rahkapannukakkuja L, marjahilloa ja kermavaahtoa Saat.G"
+      "Soup: Juuressosekeittoa L, G",
+      "Dessert: Amerikkalaisia pannukakkuja, vaahterasiirappia ja kermavaahtoa L, gluteeniton pyydettäessä"
     ]
   },
   {
     "day": "Perjantai",
     "items": [
-      "Lasagne L, Vs, Gluteeniton pyydettäessä",
-      "Vegetarian lempiruoka: Porkkanaohukaisia, kermaviilikastiketta ja perunaa L, Gluteeniton pyydettäessä",
+      "Possun wieninleike, perunamuusia L, gluteeniton pyydettäessä",
+      "vegetarian: Feta-pinaattilasagnea L, gluteeniton pyydettäessä",
       "Paahdettuja kasviksia",
       "Greeny runsas salaattipöytä",
-      "Soup: Ramenkeittoa M",
-      "Dessert: Jälkiruokabuffet; valikoima jälkiruokia"
+      "Soup: Herkkusienikeittoa L, G",
+      "Dessert: Jälkiruokabuffet, valikoima jälkiruokia"
     ]
   }
 ]
