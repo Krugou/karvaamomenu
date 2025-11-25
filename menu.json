@@ -34,29 +34,36 @@
     ]
   },
   {
-    "day": "Torstai",
+    "day": "Torstai ViColo avajaiset",
     "items": [
-      "Uunilohi, sitruunakastike, tilliperunaa L, G",
-      "Vegetarian Mifu-kasvispaistos",
-      "Grill Talon karitsakebab, minttu-aioli ja lohkoperunaa ”bravas”",
-      "Uuniperuna, kanatäyte",
-      "Lämpimiä kasviksia",
-      "ViColon runsas salaattipöytä",
-      "Soup: Zuppa di pomodoro, tomaatti-basilikakeitto L, G",
-      "Dessert: Ohukaiset, talon omenahilloa ja kermavaahtoa L, gluteeniton pyydettäessä"
+      "GREEN HEAVEN",
+      "Taivaallinen valikoima salaattipöydän antimia",
+      "Uuniperunaa, ViColon uuniperunakastiketta sekä kana- ja yrttifetatäytettä",
+      "Päivän keittona Zuppa di pomodoro - tomaatti-basilikakeitto L, G",
+      "WARM FLAVORS",
+      "Kermainen uunilohi sitruunakastikeella ja tilliperunoilla sekä lämpimiä kasviksia L, G",
+      "Mifu-kasvispaistos",
+      "PLATE OF PERFECTION",
+      "Suussasulava ViColon karitsavarras valkosipuli-minttu-aiolilla ja kylkeen patatas bravas",
+      "SWEET TEMPTATION",
+      "Ohukaiset, ViColon omenahilloa ja kermavaahtoa L, gluteeniton pyydettäessä"
     ]
   },
   {
     "day": "Perjantai",
     "items": [
-      "Riistakäristys, perunamuusia ja sokeroitua puolukkaa L, G",
-      "Vegetarian: Kasvismoussaka",
-      "Grill Katkarapu-lohipaella ja sahrami-aiolia M, G, Vs",
-      "Uuniperuna, kanatäyte",
-      "Paahdettuja kasviksia",
-      "ViColon runsas salaattipöytä",
-      "Soup: Kasvisborsch ja smetanaa L, G",
-      "Dessert: Mangorahka ja kaura-crumble L, G"
+      "GREEN HEAVEN",
+      "Taivaallinen valikoima salaattipöydän antimia",
+      "Uuniperunaa, ViColon uuniperunakastiketta sekä kana- ja yrttifetatäytettä",
+      "Päivän keittona höyryävän kuuma kasvisborsch ja vatkattua smetanaa L, G",
+      "WARM FLAVORS",
+      "Mureaa riistakäristystä, kuohkeaa perunamuusia sokeroidulla puolukalla L, G",
+      "Kasvismoussaka ViColon tapaan",
+      "Paahdetut paremmat kasvikset",
+      "PLATE OF PERFECTION",
+      "Makuhermot täyttävät katkarapu-lohipaella ja sahrami-aiolia M, G, Vs",
+      "SWEET TEMPTATION",
+      "Mangorahkaa ja Karinin parempi kaura-crumble L, G"
     ]
   }
 ]
