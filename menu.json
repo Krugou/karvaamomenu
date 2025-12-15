@@ -2,85 +2,76 @@
   {
     "day": "MAANANTAI",
     "items": [
-      "GREEN HEAVEN",
-      "Taivaallinen valikoima salaattipöydän antimia",
-      "Lämmittävän maukas kasvissosekeitto L, G",
-      "Uuniperunaa ja ViColon uuniperunakastiketta L,G",
-      "Kanatäyte sekä katkaraputäyte L, G",
       "WARM FLAVOURS",
-      "Kullanrapeaa paistettua seitä Choronkastikkeella, lisänä ratatouillea ja samettisia keitettyjä perunoita",
-      "L, Saatavilla gluteenittomana",
-      "Keittiömestarin mehevä jauhelihakiusaus, täynnä kotiruokamaista lohtua L, G",
+      "Rapeaksi paistettua uunikalaa fenkolin kera ”Pesce al forno con Finocchi” L,G sekä paahdettuja kasviksia M, G, Veg",
+      "Herkullisia tuorejuustolla täytettyjä pinaatti-kasvispihvejä G, L ja ViColon tsatsikia L, G sekä lankkuperunoita M, G",
       "PLATE OF PERFECTION",
-      "Kermaisen täyteläinen punajuuri-aurakastike ja orzopastaa L, Saatavilla gluteenittomana",
+      "Kana-katkarapupaellaa ja paprika-aiolia M, G",
+      "GREEN HEAVEN",
+      "Samettista tuoretomaattikeittoa M, G, Veg",
+      "Uuniperunaa ja ViColon uuniperunakastiketta",
       "SWEET TEMPTATION",
-      "Hedelmäpirtelö L,G"
+      "Raikasta passionrahkaa L, G"
     ]
   },
   {
     "day": "TIISTAI",
     "items": [
-      "GREEN HEAVEN",
-      "Taivaallinen valikoima salaattipöydän antimia",
-      "Hunajainen sellerisosekeitto L,G",
-      "Uuniperunaa ja ViColon uuniperunakastiketta L,G",
-      "Lohitäytettä L, G, vegaanifeta täytettä M,G, Veg",
       "WARM FLAVOURS",
-      "Chorizo-pyöryköitä ”Al pomodoro fresco” L, Lisänä samettinen yrttimuusi ja hunajalla paahdetut porkkanat L, G",
-      "Juusto-pinaattilasagnea L",
+      "Kermainen Butter Chicken L,G, basmatiriisiä M, G, Veg ja lämpimiä kasviksia M, G, Veg",
+      "Suussa sulavaa punajuuri-hummuslasagnea L",
       "PLATE OF PERFECTION",
-      "Sitruunaruoholla glaseerattu kasviswok, raikkaan aromikas, tarjolla höyryävän basmatiriisin kera\nM , G",
+      "Kvinoa-pähkinäbowl M, G, Veg",
+      "GREEN HEAVEN",
+      "Paahdettua paprikakeittoa L, G",
+      "Uuniperunaa ja ViColon uuniperunakastiketta",
       "SWEET TEMPTATION",
-      "Omenakiisseliä ja kanelikermaa L,G"
+      "Pehmeää omenakiisseliä M, G,Veg kaneli-kermavaahdolla L, G"
     ]
   },
   {
     "day": "KESKIVIIKKO",
     "items": [
-      "GREEN CHRISTMAS HEAVEN– Fresh & Festive",
-      "Raikasta vihersalaattia M, G\nWaldorfin salaattia M, G, Se\nPerinteinen ja värikäs rosolli (M, G) & kuohkea kerma L, G\nTäyteläinen ja metsäinen sienisalaatti L, G\nMakeasti paahdetut säräjuurekset M, G\nPirteän raikas makukaalisalaatti M, G\nHedelmäisen pehmeä omena-couscoussalaatti M\nSinappisilliä M, G\nMandariinisilakkaa M, G\nKuohkean ylellinen katkarapu Skagen M, G\nSamettinen ja suolainen mätimousse L, G\nTuoreet kananmunat\nMieto ja pehmeä kotijuusto L, G\nPrinssinakkeja M, G\nLihapullia L, G",
-      "OVEN WARM TREATS",
-      "Makean maltainen, pehmeä saaristolaisleipä ja joululimppu L\nAromikas ja täydellisesti leivottu keittiömestarin limppu L",
-      "WARM FLAVORS – Comfort Classics",
-      "Tilliperunoita\nTäyteläisen pehmeää perunalaatikkoa L, G\nMakean mausteinen porkkanalaatikko L, G\nSyvän aromikas, perinteinen lanttulaatikko L, G\nKermaisen mehevää smetanalohta L, G\nHerkulliset makean suolaiset vuohenjuustotäytteiset punajuuripihvit Vl, G\nMureaa ja mehukasta kinkkua\nAromikkaan voimakas ViColon sinappi L, G",
-      "SWEET HOLIDAY DREAMS",
-      "Täyteläiset juustot & hedelmäisen lempeä viikunahillo L, G\nJoulun mausteilla hurmaavat piparit M, Veg\nPaahteisen savuiset mantelit M, G\nSuklaisen täyteläiset konvehdit\nMehevä ja ylellinen suklaa-kirsikkakakku"
+      "WARM FLAVOURS",
+      "Mausteisia neljän pippurin lihapyöryköitä kermaisessa Dijon-kermakastikkeessa L ja perunasosetta L, G",
+      "Kukkakaaliwingsejä ja vegaanista ranch-kastiketta M, G, Veg sekä yrttiriisiä M, G, Veg",
+      "PLATE OF PERFECTION",
+      "Kylmäsavulohipastaa L, G",
+      "GREEN HEAVEN",
+      "Suussa sulavaa metsäsienikeittoa L, G",
+      "Uuniperunaa ja ViColon uuniperunakastiketta",
+      "SWEET TEMPTATION",
+      "Belgialaiset vohvelit suklaakastikkeella L"
     ]
   },
   {
     "day": "TORSTAI",
     "items": [
-      "GREEN HEAVEN",
-      "Taivaallinen valikoima salaattipöydän antimia",
-      "Lempeän täyteläistä maissi-perunasosekeittoa L, G",
-      "Uuniperunaa ja ViColon uuniperunakastiketta L, G",
-      "Katkaraputäyte ja fetajuustotäyte L, G",
       "WARM FLAVOURS",
-      "”Pollo al Limone” – Herkullista sitruunakanaa L, G,",
-      "riisiä ja höyrytettyjä kasviksia M, G",
-      "Seesami Sticky tofua M, G, Veg, paistettua nuudelia M, Veg",
+      "Maukasta marry me kanaa L, G, lämpimiä kasviksia M, G, Veg",
+      "Mausteista tofua vihreässä currykastikkeessa M, G, Veg sekä tomaattiriisiä M, G, Veg",
       "PLATE OF PERFECTION",
-      "Grillattua kirjolohta täyteläisessä äyriäiskastikkeessa, lisänä rapeaa perunapaistosta\nL, G – saatavilla maidottomana",
+      "Rapeaksi paistettuja muikkuja, ruskistettua tillivoita ja muusia L",
+      "GREEN HEAVEN",
+      "Ranskalaista sipulikeittoa M",
+      "Uuniperunaa ja Colony Cuisinen uuniperunakastiketta",
       "SWEET TEMPTATION",
-      "Karviaiskeittoa sekä kardemummakermaa L, G"
+      "Pullabaari L"
     ]
   },
   {
     "day": "PERJANTAI",
     "items": [
-      "GREEN HEAVEN",
-      "Taivaallinen valikoima salaattipöydän antimia",
-      "Paahdettu paprika-katkarapukeitto L, G",
-      "Uuniperunaa ja ViColon uuniperunakastiketta L, G",
-      "Kanatäytettä L, G ja juustotäytettä L, G",
       "WARM FLAVOURS",
-      "Mureaa possua punaviinissä M,G, kermaperunoita L,G ja paahdettuja juureksia M, G, Veg",
-      "Herkullisen maukasta bataatti-härkispaistosta M,G,Veg sekä porkkanabulguria M",
+      "Pizzaperjantai: Pannupizzaa – Kevätsipuli-mozzarella ja Ilmakuivattu kinkku-rucola L",
+      "Suussa sulava vuohenjuusto-punajuuripaistos VL, G ja rosmariinikastiketta L, G",
       "PLATE OF PERFECTION",
-      "Halloumburger, talon aromikkaalla aiolilla ja rapeilla lohkoperunoilla L",
+      "Pankopaneroitua possunleikettä, Tonkatsu-kastiketta L, Uunilohkoperunoita M, G, Veg",
+      "GREEN HEAVEN",
+      "Täyteläistä maa-artisokkakeittoa L,G",
+      "Uuniperunaa ja ViColon uuniperunakastiketta",
       "SWEET TEMPTATION",
-      "Silkkisen pehmeää valkosuklaamoussea",
-      "sekä raikasta hedelmäsalaattia VL, G"
+      "Houkutteleva ViColon jälkiruokabuffet"
     ]
   }
 ]
